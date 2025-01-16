@@ -13,6 +13,10 @@ class WeatherData:
     description: str
     icon: str
     temperature: int
+    temperature_min: int
+    temperature_max: int
+    pressure: int
+    humidity: int
 
 
 
@@ -33,7 +37,12 @@ def get_current_weather(lat, lon, API_key):
         description=resp.get('weather')[0].get('description'),
         icon=resp.get('weather')[0].get('icon'),
         # From main dictionary
-        temperature=int(resp.get('main').get('temp'))
+        temperature=int(resp.get('main').get('temp')),
+        temperature_min=int(resp.get('main').get('temp_min')),
+        temperature_max=int(resp.get('main').get('temp_max')),
+        pressure=int(resp.get('main').get('pressure')),
+        humidity=int(resp.get('main').get('humidity'))
+
     )
     return data
 
