@@ -22,4 +22,6 @@ To run this app you need to:
 
 ----
 
-![weather-app](Flask - Weather App/weather-app.png)
+ 
+![Weather App]([SQL%20%26%20PowerBI%20-%20Breweries/Breweries.png](https://github.com/rosa-lpz/Web-Development-Portfolio/blob/6042ac54ccee8d384df2c48cf7f0bf9ff2326222/Flask%20-%20Weather%20app/weather-app.png))
+ 
